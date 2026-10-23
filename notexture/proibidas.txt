@@ -1,0 +1,9 @@
+# Texturas proibidas no servidor
+# Escreva uma por linha: um pedaço do nome da textura ou da descrição dela.
+# Se o jogador tiver uma textura dessas, o launcher tira ela da pasta "resourcepacks"
+# (vai para a pasta "texturas-proibidas") e desativa antes de abrir o jogo.
+# A textura do servidor (pasta forcepack) nunca é bloqueada.
+# Linhas que começam com # são ignoradas.
+
+xray
+x-ray

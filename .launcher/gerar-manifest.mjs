@@ -1,4 +1,4 @@
-// Generates .launcher/manifest.json from mods/, forcepack/ and nomods/proibidos.txt.
+// Generates .launcher/manifest.json from mods/, forcepack/, nomods/proibidos.txt and notexture/proibidas.txt.
 // Runs on GitHub Actions after every change; can also be run locally with `node .launcher/gerar-manifest.mjs`.
 import crypto from 'node:crypto'
 import fs from 'node:fs'
@@ -37,16 +37,24 @@ const files = folders.flatMap((f) => {
 
 const forcepacks = files.filter((f) => f.path.startsWith('resourcepacks/')).map((f) => f.path.slice('resourcepacks/'.length))
 
-const nomods = path.join(root, 'nomods', 'proibidos.txt')
-const forbidden = fs.existsSync(nomods)
-  ? fs
-      .readFileSync(nomods, 'utf8')
-      .split(/\r?\n/)
-      .map((l) => l.trim())
-      .filter((l) => l && !l.startsWith('#'))
-  : []
+/** Non-empty, non-comment lines of a text list. */
+const readList = (...parts) => {
+  const file = path.join(root, ...parts)
+  return fs.existsSync(file)
+    ? fs
+        .readFileSync(file, 'utf8')
+        .split(/\r?\n/)
+        .map((l) => l.trim())
+        .filter((l) => l && !l.startsWith('#'))
+    : []
+}
 
-const manifest = { files, forcepacks, forbidden }
+const forbidden = readList('nomods', 'proibidos.txt')
+const forbiddenPacks = readList('notexture', 'proibidas.txt')
+
+const manifest = { files, forcepacks, forbidden, forbiddenPacks }
 fs.mkdirSync(path.join(root, '.launcher'), { recursive: true })
 fs.writeFileSync(path.join(root, '.launcher', 'manifest.json'), `${JSON.stringify(manifest, null, 2)}\n`)
-console.log(`manifest.json: ${files.length} arquivos, ${forcepacks.length} forcepack(s), ${forbidden.length} proibido(s)`)
+console.log(
+  `manifest.json: ${files.length} arquivos, ${forcepacks.length} forcepack(s), ${forbidden.length} mod(s) e ${forbiddenPacks.length} textura(s) proibidos`
+)

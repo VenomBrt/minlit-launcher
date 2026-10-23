@@ -25,6 +25,7 @@ Tudo neste repositório é lido pelo launcher toda vez que ele abre. Mudou aqui,
 | 📁 [`mods/`](mods) | **Mods do servidor.** Todo mundo baixa automaticamente |
 | 📁 [`nomods/`](nomods) | **Mods proibidos.** Lista em `proibidos.txt`; o launcher tira esses mods do jogador |
 | 📁 [`forcepack/`](forcepack) | **Textura forçada.** Todo `.zip` aqui é baixado e ativado por cima das outras texturas |
+| 📁 [`notexture/`](notexture) | **Texturas proibidas.** Lista em `proibidas.txt`; o launcher tira essas texturas do jogador |
 | 📄 [`servidor.json`](servidor.json) | **IP e porta** do servidor, link do mapa, Discord e site |
 | 📄 [`jornal.json`](jornal.json) | **Jornal do estado** (notícias do Acampamento) |
 | 📄 [`procurados.json`](procurados.json) | **Lista de procurados** |
@@ -52,6 +53,13 @@ Limite do GitHub: 100 MB por arquivo.
 Edite [`nomods/proibidos.txt`](nomods/proibidos.txt) e escreva um mod por linha: o ID do mod (ex.: `freecam`) ou um pedaço do
 nome do arquivo (ex.: `xray`). Se o jogador tiver esse mod, o launcher tira ele da pasta `mods` antes de abrir o jogo.
 Mods que não estão proibidos (minimapa, por exemplo) continuam liberados.
+
+### Como proibir uma textura
+
+Edite [`notexture/proibidas.txt`](notexture/proibidas.txt) e escreva uma por linha: um pedaço do nome da textura (ex.: `xray`)
+ou da descrição dela. O launcher confere o nome do arquivo **e** a descrição de dentro da textura, então renomear não adianta.
+Se o jogador tiver uma textura dessas, ela é desativada e vai para a pasta `texturas-proibidas` antes do jogo abrir.
+A textura do servidor (pasta `forcepack/`) nunca é bloqueada.
 
 ### Como trocar a textura forçada
 
