@@ -1,0 +1,12 @@
+# Mods proibidos no servidor
+# Escreva um por linha: o ID do mod ou um pedaço do nome do arquivo.
+# Se o jogador tiver um mod desses na pasta "mods", o launcher tira ele de lá
+# (vai para a pasta "mods-proibidos") antes de abrir o jogo.
+# Linhas que começam com # são ignoradas.
+
+xray
+freecam
+meteor-client
+wurst
+aristois
+baritone

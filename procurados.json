@@ -5,7 +5,7 @@
     "crimes": ["Roubo ao Banco de Minlit", "Homicídio", "Fuga da prisão"],
     "reward": 158,
     "danger": 5,
-    "skinUrl": "https://raw.githubusercontent.com/VenomBrt/minlit-launcher/main/servidor/skins/tony-petrikov.png"
+    "skinUrl": "https://raw.githubusercontent.com/VenomBrt/minlit-launcher/main/skins/tony-petrikov.png"
   },
   {
     "nick": "jeb_",
