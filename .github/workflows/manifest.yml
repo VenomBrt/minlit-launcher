@@ -1,0 +1,40 @@
+name: Atualizar lista de mods
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'servidor/mods/**'
+      - 'servidor/resourcepacks/**'
+      - 'scripts/gerar-manifest.mjs'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: manifest
+  cancel-in-progress: false
+
+jobs:
+  manifest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Gerar manifest.json
+        run: node scripts/gerar-manifest.mjs
+
+      - name: Salvar no repositório
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add servidor/manifest.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Atualizar lista de mods"
+          git pull --rebase origin main
+          git push

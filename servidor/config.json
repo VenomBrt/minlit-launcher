@@ -1,0 +1,23 @@
+{
+  "serverName": "Minlit",
+  "tagline": "1891",
+  "server": {
+    "host": "laurel-fomit.tun.ply.gg",
+    "port": 25565,
+    "autoJoin": true
+  },
+  "minecraft": {
+    "version": "1.21.1",
+    "loader": {
+      "enable": true,
+      "type": "fabric",
+      "build": "latest"
+    }
+  },
+  "forcepack": "Minlit_Global.zip",
+  "mapUrl": "",
+  "links": {
+    "discord": "",
+    "site": ""
+  }
+}

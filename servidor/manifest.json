@@ -1,0 +1,211 @@
+{
+  "managedFolders": [
+    "mods"
+  ],
+  "files": [
+    {
+      "path": "mods/architectury-13.0.11-fabric.jar",
+      "url": "https://raw.githubusercontent.com/VenomBrt/minlit-launcher/main/servidor/mods/architectury-13.0.11-fabric.jar",
+      "sha1": "18200609d4c3571c4237b50884966f6fd82431ea",
+      "size": 600921
+    },
+    {
+      "path": "mods/ArmasDeMinlit-4.3.0-preview1.jar",
+      "url": "https://raw.githubusercontent.com/VenomBrt/minlit-launcher/main/servidor/mods/ArmasDeMinlit-4.3.0-preview1.jar",
+      "sha1": "bb1b2d7a7b035c0ef6723d234fc93e034a7cce6a",
+      "size": 12621646
+    },
+    {
+      "path": "mods/chat_heads-0.15.7-fabric-1.21.jar",
+      "url": "https://raw.githubusercontent.com/VenomBrt/minlit-launcher/main/servidor/mods/chat_heads-0.15.7-fabric-1.21.jar",
+      "sha1": "5f37d428e0cc5ff08ed73a21ee11af0dde4105c2",
+      "size": 86944
+    },
+    {
+      "path": "mods/cloth-config-15.0.140-fabric.jar",
+      "url": "https://raw.githubusercontent.com/VenomBrt/minlit-launcher/main/servidor/mods/cloth-config-15.0.140-fabric.jar",
+      "sha1": "5d82342a2df53fd6df712bfdd583a811572918a4",
+      "size": 1157166
+    },
+    {
+      "path": "mods/connectedglass-1.1.14-fabric-mc1.21.jar",
+      "url": "https://raw.githubusercontent.com/VenomBrt/minlit-launcher/main/servidor/mods/connectedglass-1.1.14-fabric-mc1.21.jar",
+      "sha1": "dc2a646fce4691b2f4f73faa8bedcfa52d543bee",
+      "size": 848250
+    },
+    {
+      "path": "mods/connectivity-fabric-1.21-7.7.jar",
+      "url": "https://raw.githubusercontent.com/VenomBrt/minlit-launcher/main/servidor/mods/connectivity-fabric-1.21-7.7.jar",
+      "sha1": "cde4b589ba88bc8b32a5b0b9f0dc102d3d6eac47",
+      "size": 199902
+    },
+    {
+      "path": "mods/continuity-3.0.0+1.21.jar",
+      "url": "https://raw.githubusercontent.com/VenomBrt/minlit-launcher/main/servidor/mods/continuity-3.0.0%2B1.21.jar",
+      "sha1": "c7f09b53512604c2ba6803b1247bc70e4d0f8f8c",
+      "size": 1014044
+    },
+    {
+      "path": "mods/cupboard-fabric-1.21.1-4.2.jar",
+      "url": "https://raw.githubusercontent.com/VenomBrt/minlit-launcher/main/servidor/mods/cupboard-fabric-1.21.1-4.2.jar",
+      "sha1": "c790bd1c15a216f0291a99ac1e4dc1f4829270fc",
+      "size": 27680
+    },
+    {
+      "path": "mods/dynamic-fps-3.11.4+minecraft-1.21.0-fabric.jar",
+      "url": "https://raw.githubusercontent.com/VenomBrt/minlit-launcher/main/servidor/mods/dynamic-fps-3.11.4%2Bminecraft-1.21.0-fabric.jar",
+      "sha1": "c0ee92c6d8a48e077aa9b02f3470619eab17d59c",
+      "size": 217532
+    },
+    {
+      "path": "mods/entity_model_features-3.3.12-1.21-fabric.jar",
+      "url": "https://raw.githubusercontent.com/VenomBrt/minlit-launcher/main/servidor/mods/entity_model_features-3.3.12-1.21-fabric.jar",
+      "sha1": "1528d24c0c6577ac23408c661639a0a03a5207f3",
+      "size": 653743
+    },
+    {
+      "path": "mods/entity_texture_features-7.2.6-1.21-fabric.jar",
+      "url": "https://raw.githubusercontent.com/VenomBrt/minlit-launcher/main/servidor/mods/entity_texture_features-7.2.6-1.21-fabric.jar",
+      "sha1": "1ec5508fe8252234bf175c1dc48f099530d687d3",
+      "size": 800215
+    },
+    {
+      "path": "mods/fabric-api-0.116.17+1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/VenomBrt/minlit-launcher/main/servidor/mods/fabric-api-0.116.17%2B1.21.1.jar",
+      "sha1": "810b2b0195371a012906241d8b85a32a1d6de53c",
+      "size": 2452735
+    },
+    {
+      "path": "mods/ForgeConfigAPIPort-v21.1.6-1.21.1-Fabric.jar",
+      "url": "https://raw.githubusercontent.com/VenomBrt/minlit-launcher/main/servidor/mods/ForgeConfigAPIPort-v21.1.6-1.21.1-Fabric.jar",
+      "sha1": "18bf1f21cd2db6dcd4e42db85eae54e2a49a48ee",
+      "size": 633065
+    },
+    {
+      "path": "mods/fusion-1.3.16-fabric-mc1.21.jar",
+      "url": "https://raw.githubusercontent.com/VenomBrt/minlit-launcher/main/servidor/mods/fusion-1.3.16-fabric-mc1.21.jar",
+      "sha1": "ce69d9c427e17d15ce99b43a2c5cffc4cd5dfa30",
+      "size": 913396
+    },
+    {
+      "path": "mods/gpumemleakfix-fabric-1.21-1.8.jar",
+      "url": "https://raw.githubusercontent.com/VenomBrt/minlit-launcher/main/servidor/mods/gpumemleakfix-fabric-1.21-1.8.jar",
+      "sha1": "416bca48280bbbb824e595d12fc694cc7488cfc4",
+      "size": 6016
+    },
+    {
+      "path": "mods/iris-fabric-1.8.8+mc1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/VenomBrt/minlit-launcher/main/servidor/mods/iris-fabric-1.8.8%2Bmc1.21.1.jar",
+      "sha1": "4e0df4011503b4b36ba69877ea7247c1a47fea00",
+      "size": 2690177
+    },
+    {
+      "path": "mods/jei-1.21.1-fabric-19.64.0.455.jar",
+      "url": "https://raw.githubusercontent.com/VenomBrt/minlit-launcher/main/servidor/mods/jei-1.21.1-fabric-19.64.0.455.jar",
+      "sha1": "f5e0c96e4adb473ae3e401ff5dfefe7ad609cad6",
+      "size": 2416860
+    },
+    {
+      "path": "mods/mezz_config-1.21.1-fabric-0.6.8.jar",
+      "url": "https://raw.githubusercontent.com/VenomBrt/minlit-launcher/main/servidor/mods/mezz_config-1.21.1-fabric-0.6.8.jar",
+      "sha1": "e9351cf60199e3a2db427342f33a18949c0dc67e",
+      "size": 372634
+    },
+    {
+      "path": "mods/MinlitClient-2.0.0-preview7-corrigido.jar",
+      "url": "https://raw.githubusercontent.com/VenomBrt/minlit-launcher/main/servidor/mods/MinlitClient-2.0.0-preview7-corrigido.jar",
+      "sha1": "c4b5786fbee7f620a02fa8a89237cc05334bbf0a",
+      "size": 8572943
+    },
+    {
+      "path": "mods/modernfix-fabric-5.25.1+mc1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/VenomBrt/minlit-launcher/main/servidor/mods/modernfix-fabric-5.25.1%2Bmc1.21.1.jar",
+      "sha1": "4ab39e9c736e7204146792c545ec5b29fc0a3872",
+      "size": 471258
+    },
+    {
+      "path": "mods/modmenu-11.0.5.jar",
+      "url": "https://raw.githubusercontent.com/VenomBrt/minlit-launcher/main/servidor/mods/modmenu-11.0.5.jar",
+      "sha1": "2321d890a25b5985eba576d7cd8fe9a9c136e33d",
+      "size": 975846
+    },
+    {
+      "path": "mods/MouseTweaks-fabric-mc1.21-2.26.jar",
+      "url": "https://raw.githubusercontent.com/VenomBrt/minlit-launcher/main/servidor/mods/MouseTweaks-fabric-mc1.21-2.26.jar",
+      "sha1": "ee81af33a5606ef2cd057e075833d7c69836c210",
+      "size": 75984
+    },
+    {
+      "path": "mods/particular-1.21.1-Fabric-1.5.7.jar",
+      "url": "https://raw.githubusercontent.com/VenomBrt/minlit-launcher/main/servidor/mods/particular-1.21.1-Fabric-1.5.7.jar",
+      "sha1": "e2bb1ab8c973303fa0a40a636b33a645dcc87b24",
+      "size": 285956
+    },
+    {
+      "path": "mods/placeholder-api-2.4.2+1.21.jar",
+      "url": "https://raw.githubusercontent.com/VenomBrt/minlit-launcher/main/servidor/mods/placeholder-api-2.4.2%2B1.21.jar",
+      "sha1": "aa1b9a49f9f190dfe4825c502b150817dd2998c3",
+      "size": 232325
+    },
+    {
+      "path": "mods/PlayerAnimationLibFabric-1.1.6+mc.1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/VenomBrt/minlit-launcher/main/servidor/mods/PlayerAnimationLibFabric-1.1.6%2Bmc.1.21.1.jar",
+      "sha1": "f33384448a9d3271b77ba61d658dc90f40949578",
+      "size": 1154772
+    },
+    {
+      "path": "mods/reeses-sodium-options-fabric-1.8.3+mc1.21.4.jar",
+      "url": "https://raw.githubusercontent.com/VenomBrt/minlit-launcher/main/servidor/mods/reeses-sodium-options-fabric-1.8.3%2Bmc1.21.4.jar",
+      "sha1": "c72f07a8f139f0420cbce29bd9eb29fb24db427f",
+      "size": 81067
+    },
+    {
+      "path": "mods/rubidium-flow-1.21.1-0.1.0-alpha.2.jar",
+      "url": "https://raw.githubusercontent.com/VenomBrt/minlit-launcher/main/servidor/mods/rubidium-flow-1.21.1-0.1.0-alpha.2.jar",
+      "sha1": "652a797c2db34485763c44b2dcfa655036da0cbf",
+      "size": 26855
+    },
+    {
+      "path": "mods/SimpleDiscordRichPresence-fabric-88.0.1-build.54+mc1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/VenomBrt/minlit-launcher/main/servidor/mods/SimpleDiscordRichPresence-fabric-88.0.1-build.54%2Bmc1.21.1.jar",
+      "sha1": "35c08b9345ffc23f47bda6c8c17ae2549a9db264",
+      "size": 75286
+    },
+    {
+      "path": "mods/sodium-fabric-0.6.13+mc1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/VenomBrt/minlit-launcher/main/servidor/mods/sodium-fabric-0.6.13%2Bmc1.21.1.jar",
+      "sha1": "928a2598178c3a58b0638bab842f467d2e49251a",
+      "size": 1297761
+    },
+    {
+      "path": "mods/sodiumdynamiclights-fabric-1.0.10-1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/VenomBrt/minlit-launcher/main/servidor/mods/sodiumdynamiclights-fabric-1.0.10-1.21.1.jar",
+      "sha1": "11bff7127c2d01a97c931cda6012c8d2c3e1f39f",
+      "size": 899434
+    },
+    {
+      "path": "mods/sodiumoptionsapi-fabric-1.0.10-1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/VenomBrt/minlit-launcher/main/servidor/mods/sodiumoptionsapi-fabric-1.0.10-1.21.1.jar",
+      "sha1": "ca8c29ad2481ab5fe81095181541d183fa7faf19",
+      "size": 903592
+    },
+    {
+      "path": "mods/sound-physics-remastered-fabric-1.21.1-1.5.1.jar",
+      "url": "https://raw.githubusercontent.com/VenomBrt/minlit-launcher/main/servidor/mods/sound-physics-remastered-fabric-1.21.1-1.5.1.jar",
+      "sha1": "07d9f758338ad5be38b7fa1eb32c71a7c4840ea0",
+      "size": 205671
+    },
+    {
+      "path": "mods/supermartijn642corelib-1.1.25-fabric-mc1.21.jar",
+      "url": "https://raw.githubusercontent.com/VenomBrt/minlit-launcher/main/servidor/mods/supermartijn642corelib-1.1.25-fabric-mc1.21.jar",
+      "sha1": "3339afb26de57eb3b83aed326e6cab5c1af1e490",
+      "size": 622551
+    },
+    {
+      "path": "resourcepacks/Minlit_Global.zip",
+      "url": "https://raw.githubusercontent.com/VenomBrt/minlit-launcher/main/servidor/resourcepacks/Minlit_Global.zip",
+      "sha1": "49bf931aba83fa5c27e099aa3e521ce715107340",
+      "size": 4548639
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+[
+  {
+    "nick": "Mr.Tony Petrikov",
+    "character": "Tony Petrikov",
+    "crimes": ["Roubo ao Banco de Minlit", "Homicídio", "Fuga da prisão"],
+    "reward": 158,
+    "danger": 5,
+    "skinUrl": "https://raw.githubusercontent.com/VenomBrt/minlit-launcher/main/servidor/skins/tony-petrikov.png"
+  },
+  {
+    "nick": "jeb_",
+    "character": "Billy Hollow",
+    "crimes": ["Assalto à diligência", "Contrabando de armas"],
+    "reward": 135,
+    "danger": 4
+  },
+  {
+    "nick": "Herobrine",
+    "character": "Elias \"Olhos Brancos\" Crow",
+    "crimes": ["Envenenamento", "Incêndio criminoso"],
+    "reward": 110,
+    "danger": 4
+  },
+  {
+    "nick": "kingbdogz",
+    "character": "Ruth Callahan",
+    "crimes": ["Roubo de cavalos", "Agressão ao xerife"],
+    "reward": 85,
+    "danger": 3
+  },
+  {
+    "nick": "Marc",
+    "character": "Tommy Dalton",
+    "crimes": ["Contrabando de uísque"],
+    "reward": 60,
+    "danger": 2
+  },
+  {
+    "nick": "Steve",
+    "character": "Joe Ninguém",
+    "crimes": ["Briga no saloon", "Dívida de jogo"],
+    "reward": 30,
+    "danger": 1
+  }
+]
