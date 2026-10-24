@@ -1,5 +1,6 @@
 // Generates .launcher/manifest.json from mods/, forcepack/, nomods/proibidos.txt and notexture/proibidas.txt.
 // Runs on GitHub Actions after every change; can also be run locally with `node .launcher/gerar-manifest.mjs`.
+import { execSync } from 'node:child_process'
 import crypto from 'node:crypto'
 import fs from 'node:fs'
 import path from 'node:path'
@@ -52,9 +53,25 @@ const readList = (...parts) => {
 const forbidden = readList('nomods', 'proibidos.txt')
 const forbiddenPacks = readList('notexture', 'proibidas.txt')
 
-const manifest = { files, forcepacks, forbidden, forbiddenPacks }
+// Every file ever deleted from mods/ or forcepack/ (from git history, so it needs the full clone):
+// players who still have one get it removed, even if their launcher never recorded installing it.
+const toGamePath = (rel) => rel.replace(/^forcepack\//, 'resourcepacks/')
+const current = new Set(files.map((f) => f.path))
+const retired = [
+  ...new Set(
+    execSync('git log --no-renames --diff-filter=D --name-only --pretty=format: -- mods forcepack', { cwd: root, encoding: 'utf8' })
+      .split(/\r?\n/)
+      .map((l) => l.trim())
+      .filter((l) => /^(mods\/[^/]+\.jar|forcepack\/[^/]+\.zip)$/i.test(l))
+      .map(toGamePath)
+  )
+]
+  .filter((p) => !current.has(p))
+  .sort()
+
+const manifest = { files, forcepacks, forbidden, forbiddenPacks, retired }
 fs.mkdirSync(path.join(root, '.launcher'), { recursive: true })
 fs.writeFileSync(path.join(root, '.launcher', 'manifest.json'), `${JSON.stringify(manifest, null, 2)}\n`)
 console.log(
-  `manifest.json: ${files.length} arquivos, ${forcepacks.length} forcepack(s), ${forbidden.length} mod(s) e ${forbiddenPacks.length} textura(s) proibidos`
+  `manifest.json: ${files.length} arquivos, ${forcepacks.length} forcepack(s), ${forbidden.length} mod(s) e ${forbiddenPacks.length} textura(s) proibidos, ${retired.length} removido(s)`
 )
